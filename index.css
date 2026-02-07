@@ -97,6 +97,8 @@ a:hover{
     width: 33.3%;
     border: 1px #ccc solid;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     box-sizing: border-box;
 }
 .p-box{
