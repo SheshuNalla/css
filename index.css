@@ -111,14 +111,14 @@ a:hover{
     background-size: cover;
 }
 .p-box h1{
-    position: absolute;
+    position: sticky;
     top: 250px;
     right: 150px;
 }
 .p-box h2{
-    position: absolute;
-    bottom: 100px;
-    left: 200px;
+    position: sticky;
+    top: 0px;
+    
 }
 .fix-me{
     position: fixed;
