@@ -111,9 +111,9 @@ a:hover{
     background-size: cover;
 }
 .p-box h1{
-    position: sticky;
-    top: 250px;
-    right: 150px;
+    position: absolute;
+    top: 0;
+    right: 300px;
 }
 .p-box h2{
     position: sticky;
@@ -124,4 +124,13 @@ a:hover{
     position: fixed;
     top: 300px;
     left: 0px;
+}
+.my-list :nth-child(odd){
+    background-color: #000;
+}
+.my-list :first-child{
+    background-color: orange;
+}
+.my-list :last-child{
+    background-color: orange;
 }
